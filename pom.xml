@@ -27,7 +27,7 @@
             <groupId>com.github.javaparser</groupId>
            
                  <artifactId>cobertura</artifactId>
-          <version>${cobertura.version}</version>
+          <version>${cobertura.1.8}</version>
 
         </dependency>
     </dependencies>
