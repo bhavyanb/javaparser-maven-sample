@@ -17,6 +17,8 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <!-- Tell Maven to treat all source files as UTF-8 -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+             <cobertura.skip>false</cobertura.skip>
+        <cobertura.skip>false</cobertura.skip>
     </properties>
 
     <dependencies>
@@ -25,6 +27,9 @@
             <groupId>com.github.javaparser</groupId>
             <artifactId>javaparser-core</artifactId>
             <version>3.24.10</version>
+                 <artifactId>cobertura</artifactId>
+          <version>${cobertura.version}</version>
+
         </dependency>
     </dependencies>
 
